@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="279" id="KGk-i7-Jjw" customClass="TextTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="279"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="278"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="userinforipcell.png" translatesAutoresizingMaskIntoConstraints="NO" id="r4r-Dl-vEo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="278"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="userinfoaddfriendweibobutton.png" translatesAutoresizingMaskIntoConstraints="NO" id="dJu-eZ-God">
+                        <rect key="frame" x="13" y="8" width="294" height="232"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clockgray.png" translatesAutoresizingMaskIntoConstraints="NO" id="auy-f8-7BB">
+                        <rect key="frame" x="23" y="198" width="26" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="4V5-2R-3GD"/>
+                            <constraint firstAttribute="width" constant="26" id="bg1-90-kaX"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ujf-at-SBe">
+                        <rect key="frame" x="51" y="199" width="120" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="4yP-X2-hQC"/>
+                            <constraint firstAttribute="width" constant="120" id="jzp-C8-pQg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settingmobilecodeHighligedBtn.png" translatesAutoresizingMaskIntoConstraints="NO" id="QXh-RR-5vJ">
+                        <rect key="frame" x="175" y="187" width="127" height="38"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="38" id="iG8-8G-fd9"/>
+                            <constraint firstAttribute="width" constant="127" id="jI4-wC-NYo"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="waypointcellshadow.png" translatesAutoresizingMaskIntoConstraints="NO" id="YzZ-pB-mgY">
+                        <rect key="frame" x="0.0" y="240" width="320" height="38"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="38" id="RB1-Cl-bvD"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EvT-n9-CJA">
+                        <rect key="frame" x="18" y="13" width="284" height="151"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoH-XH-U40">
+                        <rect key="frame" x="185" y="197" width="107" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="107" id="SSq-i0-iVb"/>
+                            <constraint firstAttribute="height" constant="23" id="mEw-xu-Evj"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EvT-n9-CJA" firstAttribute="trailing" secondItem="dJu-eZ-God" secondAttribute="trailing" constant="-5" id="1pL-lX-wbl"/>
+                    <constraint firstItem="YzZ-pB-mgY" firstAttribute="top" secondItem="dJu-eZ-God" secondAttribute="bottom" id="3aq-ee-j6s"/>
+                    <constraint firstItem="YzZ-pB-mgY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="5b1-vF-k8j"/>
+                    <constraint firstItem="QXh-RR-5vJ" firstAttribute="trailing" secondItem="dJu-eZ-God" secondAttribute="trailing" constant="-5" id="7af-Tj-vDY"/>
+                    <constraint firstItem="eoH-XH-U40" firstAttribute="trailing" secondItem="dJu-eZ-God" secondAttribute="trailing" constant="-15" id="AaJ-ij-daf"/>
+                    <constraint firstAttribute="bottom" secondItem="r4r-Dl-vEo" secondAttribute="bottom" id="CdZ-8p-4tW"/>
+                    <constraint firstItem="r4r-Dl-vEo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="GSb-sm-gLu"/>
+                    <constraint firstItem="auy-f8-7BB" firstAttribute="leading" secondItem="dJu-eZ-God" secondAttribute="leading" constant="10" id="N8t-rL-hNG"/>
+                    <constraint firstAttribute="trailing" secondItem="dJu-eZ-God" secondAttribute="trailing" constant="13" id="OAC-Tm-PD4"/>
+                    <constraint firstAttribute="bottom" secondItem="YzZ-pB-mgY" secondAttribute="bottom" id="TIM-Jq-p3k"/>
+                    <constraint firstItem="eoH-XH-U40" firstAttribute="bottom" secondItem="dJu-eZ-God" secondAttribute="bottom" constant="-20" id="TPS-6N-qmh"/>
+                    <constraint firstAttribute="trailing" secondItem="r4r-Dl-vEo" secondAttribute="trailing" id="Tw4-ga-MtG"/>
+                    <constraint firstItem="Ujf-at-SBe" firstAttribute="bottom" secondItem="dJu-eZ-God" secondAttribute="bottom" constant="-20" id="XMO-qd-IKb"/>
+                    <constraint firstItem="EvT-n9-CJA" firstAttribute="leading" secondItem="dJu-eZ-God" secondAttribute="leading" constant="5" id="XSJ-CA-Ibi"/>
+                    <constraint firstItem="dJu-eZ-God" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="f0I-B3-R1S"/>
+                    <constraint firstItem="Ujf-at-SBe" firstAttribute="leading" secondItem="auy-f8-7BB" secondAttribute="trailing" constant="2" id="gEl-I1-Aja"/>
+                    <constraint firstItem="dJu-eZ-God" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="irD-P3-Rtu"/>
+                    <constraint firstItem="QXh-RR-5vJ" firstAttribute="top" secondItem="EvT-n9-CJA" secondAttribute="bottom" constant="23" id="j2C-qJ-bI1"/>
+                    <constraint firstItem="QXh-RR-5vJ" firstAttribute="bottom" secondItem="dJu-eZ-God" secondAttribute="bottom" constant="-15" id="k8m-ls-D8c"/>
+                    <constraint firstItem="EvT-n9-CJA" firstAttribute="top" secondItem="dJu-eZ-God" secondAttribute="top" constant="5" id="pyP-nU-Yeg"/>
+                    <constraint firstItem="r4r-Dl-vEo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="tsE-TU-wuH"/>
+                    <constraint firstItem="auy-f8-7BB" firstAttribute="bottom" secondItem="dJu-eZ-God" secondAttribute="bottom" constant="-20" id="wH0-or-PuX"/>
+                    <constraint firstAttribute="trailing" secondItem="YzZ-pB-mgY" secondAttribute="trailing" id="yHo-xU-6mG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="TitleLabel" destination="EvT-n9-CJA" id="DZx-aL-nu4"/>
+                <outlet property="local_TimeLabel" destination="Ujf-at-SBe" id="88G-z9-AVw"/>
+                <outlet property="localtionButton" destination="eoH-XH-U40" id="GdT-j2-xH6"/>
+                <outlet property="titleImage" destination="dJu-eZ-God" id="RFX-mJ-2Oi"/>
+            </connections>
+            <point key="canvasLocation" x="430" y="308.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="clockgray.png" width="24" height="24"/>
+        <image name="settingmobilecodeHighligedBtn.png" width="208" height="58"/>
+        <image name="userinfoaddfriendweibobutton.png" width="150" height="64"/>
+        <image name="userinforipcell.png" width="640" height="212"/>
+        <image name="waypointcellshadow.png" width="640" height="36"/>
+    </resources>
+</document>

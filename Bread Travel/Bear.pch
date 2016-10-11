@@ -1,0 +1,14 @@
+//
+//  Bear.pch
+//  Bear--LX
+//
+//  Created by 千锋 on 16/8/2.
+//  Copyright © 2016年 千锋. All rights reserved.
+//
+
+#ifndef Bear_pch
+#define Bear_pch
+
+#import <UIKit/UIKit.h>
+#import "Bear.h"
+#endif /* Bear_pch */

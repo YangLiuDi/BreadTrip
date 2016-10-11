@@ -1,0 +1,1107 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89A2ED785C3C01A91EEEEF18 /* libPods-Bread TravelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D312887BE3B7F825C0DE2BA3 /* libPods-Bread TravelTests.a */; };
+		8F18F826C0FC6516B2E0D066 /* libPods-Bread TravelUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E46974EF1ACDB63F876D5C6 /* libPods-Bread TravelUITests.a */; };
+		BCA7E1701D5DAEB600F8CEF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E16F1D5DAEB600F8CEF3 /* main.m */; };
+		BCA7E1731D5DAEB600F8CEF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1721D5DAEB600F8CEF3 /* AppDelegate.m */; };
+		BCA7E1761D5DAEB600F8CEF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1751D5DAEB600F8CEF3 /* ViewController.m */; };
+		BCA7E1791D5DAEB600F8CEF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1771D5DAEB600F8CEF3 /* Main.storyboard */; };
+		BCA7E17B1D5DAEB600F8CEF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E17A1D5DAEB600F8CEF3 /* Assets.xcassets */; };
+		BCA7E17E1D5DAEB600F8CEF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E17C1D5DAEB600F8CEF3 /* LaunchScreen.storyboard */; };
+		BCA7E1891D5DAEB700F8CEF3 /* Bread_TravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1881D5DAEB700F8CEF3 /* Bread_TravelTests.m */; };
+		BCA7E1941D5DAEB700F8CEF3 /* Bread_TravelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1931D5DAEB700F8CEF3 /* Bread_TravelUITests.m */; };
+		BCA7E1FB1D5DB0D000F8CEF3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1A61D5DB0D000F8CEF3 /* BaseViewController.m */; };
+		BCA7E1FC1D5DB0D000F8CEF3 /* TravelNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1A81D5DB0D000F8CEF3 /* TravelNotesViewController.m */; };
+		BCA7E1FD1D5DB0D000F8CEF3 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1AE1D5DB0D000F8CEF3 /* ListViewController.m */; };
+		BCA7E1FE1D5DB0D000F8CEF3 /* ADModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1B11D5DB0D000F8CEF3 /* ADModel.m */; };
+		BCA7E1FF1D5DB0D000F8CEF3 /* DailystoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1B31D5DB0D000F8CEF3 /* DailystoryModel.m */; };
+		BCA7E2001D5DB0D000F8CEF3 /* HotModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1B51D5DB0D000F8CEF3 /* HotModel.m */; };
+		BCA7E2011D5DB0D000F8CEF3 /* travelNotsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1B81D5DB0D000F8CEF3 /* travelNotsTableViewCell.m */; };
+		BCA7E2021D5DB0D000F8CEF3 /* travelNotsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1B91D5DB0D000F8CEF3 /* travelNotsTableViewCell.xib */; };
+		BCA7E2031D5DB0D000F8CEF3 /* ParticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1BD1D5DB0D000F8CEF3 /* ParticViewController.m */; };
+		BCA7E2041D5DB0D000F8CEF3 /* Tripsmodel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1C01D5DB0D000F8CEF3 /* Tripsmodel.m */; };
+		BCA7E2051D5DB0D000F8CEF3 /* ParticTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1C31D5DB0D000F8CEF3 /* ParticTableViewCell.m */; };
+		BCA7E2061D5DB0D000F8CEF3 /* ParticTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1C41D5DB0D000F8CEF3 /* ParticTableViewCell.xib */; };
+		BCA7E2071D5DB0D000F8CEF3 /* TextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1C61D5DB0D000F8CEF3 /* TextTableViewCell.m */; };
+		BCA7E2081D5DB0D000F8CEF3 /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1C71D5DB0D000F8CEF3 /* TextTableViewCell.xib */; };
+		BCA7E2091D5DB0D000F8CEF3 /* attractioncounticon.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1CB1D5DB0D000F8CEF3 /* attractioncounticon.png */; };
+		BCA7E20A1D5DB0D000F8CEF3 /* avatarplaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1CC1D5DB0D000F8CEF3 /* avatarplaceholder.png */; };
+		BCA7E20B1D5DB0D000F8CEF3 /* btcityhunterotcity.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1CD1D5DB0D000F8CEF3 /* btcityhunterotcity.png */; };
+		BCA7E20C1D5DB0D000F8CEF3 /* clockgray.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1CE1D5DB0D000F8CEF3 /* clockgray.png */; };
+		BCA7E20D1D5DB0D000F8CEF3 /* destsearchbarbtncancel.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1CF1D5DB0D000F8CEF3 /* destsearchbarbtncancel.png */; };
+		BCA7E20E1D5DB0D000F8CEF3 /* desttitlerect.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1D01D5DB0D000F8CEF3 /* desttitlerect.png */; };
+		BCA7E20F1D5DB0D000F8CEF3 /* destvirturalline.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1D11D5DB0D000F8CEF3 /* destvirturalline.png */; };
+		BCA7E2101D5DB0D000F8CEF3 /* featured@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1D21D5DB0D000F8CEF3 /* featured@2x.png */; };
+		BCA7E2111D5DB0D000F8CEF3 /* featurediphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1D31D5DB0D000F8CEF3 /* featurediphone@2x.png */; };
+		BCA7E2121D5DB0D000F8CEF3 /* feedcellphotocover.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1D41D5DB0D000F8CEF3 /* feedcellphotocover.png */; };
+		BCA7E2131D5DB0D000F8CEF3 /* feednavbottombar.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1D51D5DB0D000F8CEF3 /* feednavbottombar.png */; };
+		BCA7E2141D5DB0D000F8CEF3 /* floatcomments.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1D61D5DB0D000F8CEF3 /* floatcomments.png */; };
+		BCA7E2151D5DB0D000F8CEF3 /* floatlikehighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1D71D5DB0D000F8CEF3 /* floatlikehighlight.png */; };
+		BCA7E2161D5DB0D000F8CEF3 /* floatlikes~.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1D81D5DB0D000F8CEF3 /* floatlikes~.png */; };
+		BCA7E2171D5DB0D000F8CEF3 /* foodcounticon.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1D91D5DB0D000F8CEF3 /* foodcounticon.png */; };
+		BCA7E2181D5DB0D000F8CEF3 /* homepageanimated@3x.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1DA1D5DB0D000F8CEF3 /* homepageanimated@3x.gif */; };
+		BCA7E2191D5DB0D000F8CEF3 /* hotelcounticon.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1DB1D5DB0D000F8CEF3 /* hotelcounticon.png */; };
+		BCA7E21A1D5DB0D000F8CEF3 /* journeytimeline.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1DC1D5DB0D000F8CEF3 /* journeytimeline.png */; };
+		BCA7E21B1D5DB0D000F8CEF3 /* movenextbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1DD1D5DB0D000F8CEF3 /* movenextbutton.png */; };
+		BCA7E21C1D5DB0D000F8CEF3 /* movenextbuttondisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1DE1D5DB0D000F8CEF3 /* movenextbuttondisabled.png */; };
+		BCA7E21D1D5DB0D000F8CEF3 /* movepreviousbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1DF1D5DB0D000F8CEF3 /* movepreviousbutton.png */; };
+		BCA7E21E1D5DB0D000F8CEF3 /* movepreviousbuttondisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1E01D5DB0D000F8CEF3 /* movepreviousbuttondisabled.png */; };
+		BCA7E21F1D5DB0D000F8CEF3 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1E11D5DB0D000F8CEF3 /* navbar.png */; };
+		BCA7E2201D5DB0D000F8CEF3 /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1E21D5DB0D000F8CEF3 /* pausebutton.png */; };
+		BCA7E2211D5DB0D000F8CEF3 /* phototapcover.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1E31D5DB0D000F8CEF3 /* phototapcover.png */; };
+		BCA7E2221D5DB0D000F8CEF3 /* placeTraffic.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1E41D5DB0D000F8CEF3 /* placeTraffic.png */; };
+		BCA7E2231D5DB0D000F8CEF3 /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1E51D5DB0D000F8CEF3 /* playbutton.png */; };
+		BCA7E2241D5DB0D000F8CEF3 /* poibgplaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1E61D5DB0D000F8CEF3 /* poibgplaceholder.png */; };
+		BCA7E2251D5DB0D000F8CEF3 /* poiseperatorline.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1E71D5DB0D000F8CEF3 /* poiseperatorline.png */; };
+		BCA7E2261D5DB0D000F8CEF3 /* settingmobilecodeHighligedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1E81D5DB0D000F8CEF3 /* settingmobilecodeHighligedBtn.png */; };
+		BCA7E2271D5DB0D000F8CEF3 /* shopcounticon.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1E91D5DB0D000F8CEF3 /* shopcounticon.png */; };
+		BCA7E2281D5DB0D000F8CEF3 /* tripdisoniphone.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1EA1D5DB0D000F8CEF3 /* tripdisoniphone.png */; };
+		BCA7E2291D5DB0D000F8CEF3 /* tripdisplayaddspotbtniphon.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1EB1D5DB0D000F8CEF3 /* tripdisplayaddspotbtniphon.png */; };
+		BCA7E22A1D5DB0D000F8CEF3 /* triplikednormal.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1EC1D5DB0D000F8CEF3 /* triplikednormal.png */; };
+		BCA7E22B1D5DB0D000F8CEF3 /* triplikenormal.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1ED1D5DB0D000F8CEF3 /* triplikenormal.png */; };
+		BCA7E22C1D5DB0D000F8CEF3 /* triplistcellbg.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1EE1D5DB0D000F8CEF3 /* triplistcellbg.png */; };
+		BCA7E22D1D5DB0D000F8CEF3 /* tripnewbtnback.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1EF1D5DB0D000F8CEF3 /* tripnewbtnback.png */; };
+		BCA7E22E1D5DB0D000F8CEF3 /* tripnewcomment.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1F01D5DB0D000F8CEF3 /* tripnewcomment.png */; };
+		BCA7E22F1D5DB0D000F8CEF3 /* tripnewdownload.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1F11D5DB0D000F8CEF3 /* tripnewdownload.png */; };
+		BCA7E2301D5DB0D000F8CEF3 /* tripnewsharehl.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1F21D5DB0D000F8CEF3 /* tripnewsharehl.png */; };
+		BCA7E2311D5DB0D000F8CEF3 /* tripviewsectionheader.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1F31D5DB0D000F8CEF3 /* tripviewsectionheader.png */; };
+		BCA7E2321D5DB0D000F8CEF3 /* userinfoaddfriendweibobutton.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1F41D5DB0D000F8CEF3 /* userinfoaddfriendweibobutton.png */; };
+		BCA7E2331D5DB0D000F8CEF3 /* userinfoaddfriendweibobuttonbg.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1F51D5DB0D000F8CEF3 /* userinfoaddfriendweibobuttonbg.png */; };
+		BCA7E2341D5DB0D000F8CEF3 /* userinforipcell.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1F61D5DB0D000F8CEF3 /* userinforipcell.png */; };
+		BCA7E2351D5DB0D000F8CEF3 /* waypointcellshadow.png in Resources */ = {isa = PBXBuildFile; fileRef = BCA7E1F71D5DB0D000F8CEF3 /* waypointcellshadow.png */; };
+		BCA7E2361D5DB0D000F8CEF3 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA7E1FA1D5DB0D000F8CEF3 /* HttpRequest.m */; };
+		C23E19F36E9B77715603BBF5 /* libPods-Bread Travel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5E26CDB0CCF84118CC3EB4 /* libPods-Bread Travel.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCA7E1851D5DAEB700F8CEF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA7E1631D5DAEB600F8CEF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA7E16A1D5DAEB600F8CEF3;
+			remoteInfo = "Bread Travel";
+		};
+		BCA7E1901D5DAEB700F8CEF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCA7E1631D5DAEB600F8CEF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCA7E16A1D5DAEB600F8CEF3;
+			remoteInfo = "Bread Travel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EF17C1440B7958E486640B6 /* Pods-Bread TravelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bread TravelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bread TravelUITests/Pods-Bread TravelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1E46974EF1ACDB63F876D5C6 /* libPods-Bread TravelUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bread TravelUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36406ECC28927B4A4F03A3C1 /* Pods-Bread TravelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bread TravelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bread TravelTests/Pods-Bread TravelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A5E26CDB0CCF84118CC3EB4 /* libPods-Bread Travel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bread Travel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71217096A5434C3208BE9BAA /* Pods-Bread TravelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bread TravelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bread TravelTests/Pods-Bread TravelTests.release.xcconfig"; sourceTree = "<group>"; };
+		79ED14C923A6DCBA7F47836F /* Pods-Bread TravelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bread TravelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bread TravelUITests/Pods-Bread TravelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D1A7D0603AB2C0942555F37 /* Pods-Bread Travel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bread Travel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bread Travel/Pods-Bread Travel.release.xcconfig"; sourceTree = "<group>"; };
+		BCA7E16B1D5DAEB600F8CEF3 /* Bread Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bread Travel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA7E16F1D5DAEB600F8CEF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCA7E1711D5DAEB600F8CEF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCA7E1721D5DAEB600F8CEF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCA7E1741D5DAEB600F8CEF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCA7E1751D5DAEB600F8CEF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCA7E1781D5DAEB600F8CEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCA7E17A1D5DAEB600F8CEF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCA7E17D1D5DAEB600F8CEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCA7E17F1D5DAEB600F8CEF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA7E1841D5DAEB700F8CEF3 /* Bread TravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bread TravelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA7E1881D5DAEB700F8CEF3 /* Bread_TravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bread_TravelTests.m; sourceTree = "<group>"; };
+		BCA7E18A1D5DAEB700F8CEF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA7E18F1D5DAEB700F8CEF3 /* Bread TravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bread TravelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA7E1931D5DAEB700F8CEF3 /* Bread_TravelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bread_TravelUITests.m; sourceTree = "<group>"; };
+		BCA7E1951D5DAEB700F8CEF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA7E1A51D5DB0D000F8CEF3 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BCA7E1A61D5DB0D000F8CEF3 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BCA7E1A71D5DB0D000F8CEF3 /* TravelNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelNotesViewController.h; sourceTree = "<group>"; };
+		BCA7E1A81D5DB0D000F8CEF3 /* TravelNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelNotesViewController.m; sourceTree = "<group>"; };
+		BCA7E1AD1D5DB0D000F8CEF3 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		BCA7E1AE1D5DB0D000F8CEF3 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		BCA7E1B01D5DB0D000F8CEF3 /* ADModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADModel.h; sourceTree = "<group>"; };
+		BCA7E1B11D5DB0D000F8CEF3 /* ADModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADModel.m; sourceTree = "<group>"; };
+		BCA7E1B21D5DB0D000F8CEF3 /* DailystoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailystoryModel.h; sourceTree = "<group>"; };
+		BCA7E1B31D5DB0D000F8CEF3 /* DailystoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailystoryModel.m; sourceTree = "<group>"; };
+		BCA7E1B41D5DB0D000F8CEF3 /* HotModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotModel.h; sourceTree = "<group>"; };
+		BCA7E1B51D5DB0D000F8CEF3 /* HotModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotModel.m; sourceTree = "<group>"; };
+		BCA7E1B71D5DB0D000F8CEF3 /* travelNotsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = travelNotsTableViewCell.h; sourceTree = "<group>"; };
+		BCA7E1B81D5DB0D000F8CEF3 /* travelNotsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = travelNotsTableViewCell.m; sourceTree = "<group>"; };
+		BCA7E1B91D5DB0D000F8CEF3 /* travelNotsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = travelNotsTableViewCell.xib; sourceTree = "<group>"; };
+		BCA7E1BC1D5DB0D000F8CEF3 /* ParticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticViewController.h; sourceTree = "<group>"; };
+		BCA7E1BD1D5DB0D000F8CEF3 /* ParticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticViewController.m; sourceTree = "<group>"; };
+		BCA7E1BF1D5DB0D000F8CEF3 /* Tripsmodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tripsmodel.h; sourceTree = "<group>"; };
+		BCA7E1C01D5DB0D000F8CEF3 /* Tripsmodel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tripsmodel.m; sourceTree = "<group>"; };
+		BCA7E1C21D5DB0D000F8CEF3 /* ParticTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticTableViewCell.h; sourceTree = "<group>"; };
+		BCA7E1C31D5DB0D000F8CEF3 /* ParticTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticTableViewCell.m; sourceTree = "<group>"; };
+		BCA7E1C41D5DB0D000F8CEF3 /* ParticTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParticTableViewCell.xib; sourceTree = "<group>"; };
+		BCA7E1C51D5DB0D000F8CEF3 /* TextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTableViewCell.h; sourceTree = "<group>"; };
+		BCA7E1C61D5DB0D000F8CEF3 /* TextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextTableViewCell.m; sourceTree = "<group>"; };
+		BCA7E1C71D5DB0D000F8CEF3 /* TextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
+		BCA7E1C91D5DB0D000F8CEF3 /* Bear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bear.h; sourceTree = "<group>"; };
+		BCA7E1CB1D5DB0D000F8CEF3 /* attractioncounticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attractioncounticon.png; sourceTree = "<group>"; };
+		BCA7E1CC1D5DB0D000F8CEF3 /* avatarplaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatarplaceholder.png; sourceTree = "<group>"; };
+		BCA7E1CD1D5DB0D000F8CEF3 /* btcityhunterotcity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btcityhunterotcity.png; sourceTree = "<group>"; };
+		BCA7E1CE1D5DB0D000F8CEF3 /* clockgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockgray.png; sourceTree = "<group>"; };
+		BCA7E1CF1D5DB0D000F8CEF3 /* destsearchbarbtncancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destsearchbarbtncancel.png; sourceTree = "<group>"; };
+		BCA7E1D01D5DB0D000F8CEF3 /* desttitlerect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = desttitlerect.png; sourceTree = "<group>"; };
+		BCA7E1D11D5DB0D000F8CEF3 /* destvirturalline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destvirturalline.png; sourceTree = "<group>"; };
+		BCA7E1D21D5DB0D000F8CEF3 /* featured@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "featured@2x.png"; sourceTree = "<group>"; };
+		BCA7E1D31D5DB0D000F8CEF3 /* featurediphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "featurediphone@2x.png"; sourceTree = "<group>"; };
+		BCA7E1D41D5DB0D000F8CEF3 /* feedcellphotocover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feedcellphotocover.png; sourceTree = "<group>"; };
+		BCA7E1D51D5DB0D000F8CEF3 /* feednavbottombar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feednavbottombar.png; sourceTree = "<group>"; };
+		BCA7E1D61D5DB0D000F8CEF3 /* floatcomments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floatcomments.png; sourceTree = "<group>"; };
+		BCA7E1D71D5DB0D000F8CEF3 /* floatlikehighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floatlikehighlight.png; sourceTree = "<group>"; };
+		BCA7E1D81D5DB0D000F8CEF3 /* floatlikes~.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floatlikes~.png"; sourceTree = "<group>"; };
+		BCA7E1D91D5DB0D000F8CEF3 /* foodcounticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodcounticon.png; sourceTree = "<group>"; };
+		BCA7E1DA1D5DB0D000F8CEF3 /* homepageanimated@3x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "homepageanimated@3x.gif"; sourceTree = "<group>"; };
+		BCA7E1DB1D5DB0D000F8CEF3 /* hotelcounticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotelcounticon.png; sourceTree = "<group>"; };
+		BCA7E1DC1D5DB0D000F8CEF3 /* journeytimeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = journeytimeline.png; sourceTree = "<group>"; };
+		BCA7E1DD1D5DB0D000F8CEF3 /* movenextbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movenextbutton.png; sourceTree = "<group>"; };
+		BCA7E1DE1D5DB0D000F8CEF3 /* movenextbuttondisabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movenextbuttondisabled.png; sourceTree = "<group>"; };
+		BCA7E1DF1D5DB0D000F8CEF3 /* movepreviousbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movepreviousbutton.png; sourceTree = "<group>"; };
+		BCA7E1E01D5DB0D000F8CEF3 /* movepreviousbuttondisabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movepreviousbuttondisabled.png; sourceTree = "<group>"; };
+		BCA7E1E11D5DB0D000F8CEF3 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
+		BCA7E1E21D5DB0D000F8CEF3 /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
+		BCA7E1E31D5DB0D000F8CEF3 /* phototapcover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phototapcover.png; sourceTree = "<group>"; };
+		BCA7E1E41D5DB0D000F8CEF3 /* placeTraffic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeTraffic.png; sourceTree = "<group>"; };
+		BCA7E1E51D5DB0D000F8CEF3 /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
+		BCA7E1E61D5DB0D000F8CEF3 /* poibgplaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poibgplaceholder.png; sourceTree = "<group>"; };
+		BCA7E1E71D5DB0D000F8CEF3 /* poiseperatorline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poiseperatorline.png; sourceTree = "<group>"; };
+		BCA7E1E81D5DB0D000F8CEF3 /* settingmobilecodeHighligedBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingmobilecodeHighligedBtn.png; sourceTree = "<group>"; };
+		BCA7E1E91D5DB0D000F8CEF3 /* shopcounticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shopcounticon.png; sourceTree = "<group>"; };
+		BCA7E1EA1D5DB0D000F8CEF3 /* tripdisoniphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tripdisoniphone.png; sourceTree = "<group>"; };
+		BCA7E1EB1D5DB0D000F8CEF3 /* tripdisplayaddspotbtniphon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tripdisplayaddspotbtniphon.png; sourceTree = "<group>"; };
+		BCA7E1EC1D5DB0D000F8CEF3 /* triplikednormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triplikednormal.png; sourceTree = "<group>"; };
+		BCA7E1ED1D5DB0D000F8CEF3 /* triplikenormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triplikenormal.png; sourceTree = "<group>"; };
+		BCA7E1EE1D5DB0D000F8CEF3 /* triplistcellbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triplistcellbg.png; sourceTree = "<group>"; };
+		BCA7E1EF1D5DB0D000F8CEF3 /* tripnewbtnback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tripnewbtnback.png; sourceTree = "<group>"; };
+		BCA7E1F01D5DB0D000F8CEF3 /* tripnewcomment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tripnewcomment.png; sourceTree = "<group>"; };
+		BCA7E1F11D5DB0D000F8CEF3 /* tripnewdownload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tripnewdownload.png; sourceTree = "<group>"; };
+		BCA7E1F21D5DB0D000F8CEF3 /* tripnewsharehl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tripnewsharehl.png; sourceTree = "<group>"; };
+		BCA7E1F31D5DB0D000F8CEF3 /* tripviewsectionheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tripviewsectionheader.png; sourceTree = "<group>"; };
+		BCA7E1F41D5DB0D000F8CEF3 /* userinfoaddfriendweibobutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userinfoaddfriendweibobutton.png; sourceTree = "<group>"; };
+		BCA7E1F51D5DB0D000F8CEF3 /* userinfoaddfriendweibobuttonbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userinfoaddfriendweibobuttonbg.png; sourceTree = "<group>"; };
+		BCA7E1F61D5DB0D000F8CEF3 /* userinforipcell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userinforipcell.png; sourceTree = "<group>"; };
+		BCA7E1F71D5DB0D000F8CEF3 /* waypointcellshadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waypointcellshadow.png; sourceTree = "<group>"; };
+		BCA7E1F91D5DB0D000F8CEF3 /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		BCA7E1FA1D5DB0D000F8CEF3 /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		BCA7E2371D5DB0F600F8CEF3 /* Bear.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bear.pch; sourceTree = "<group>"; };
+		D29ACC3A8D718DEE3334E0F6 /* Pods-Bread Travel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bread Travel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bread Travel/Pods-Bread Travel.debug.xcconfig"; sourceTree = "<group>"; };
+		D312887BE3B7F825C0DE2BA3 /* libPods-Bread TravelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bread TravelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA7E1681D5DAEB600F8CEF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23E19F36E9B77715603BBF5 /* libPods-Bread Travel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA7E1811D5DAEB700F8CEF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A2ED785C3C01A91EEEEF18 /* libPods-Bread TravelTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA7E18C1D5DAEB700F8CEF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F18F826C0FC6516B2E0D066 /* libPods-Bread TravelUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FA4EC3CFAC07F13289CCFF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D29ACC3A8D718DEE3334E0F6 /* Pods-Bread Travel.debug.xcconfig */,
+				9D1A7D0603AB2C0942555F37 /* Pods-Bread Travel.release.xcconfig */,
+				36406ECC28927B4A4F03A3C1 /* Pods-Bread TravelTests.debug.xcconfig */,
+				71217096A5434C3208BE9BAA /* Pods-Bread TravelTests.release.xcconfig */,
+				79ED14C923A6DCBA7F47836F /* Pods-Bread TravelUITests.debug.xcconfig */,
+				0EF17C1440B7958E486640B6 /* Pods-Bread TravelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCA7E1621D5DAEB600F8CEF3 = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1A11D5DB0D000F8CEF3 /* Application */,
+				BCA7E16D1D5DAEB600F8CEF3 /* Bread Travel */,
+				BCA7E1871D5DAEB700F8CEF3 /* Bread TravelTests */,
+				BCA7E1921D5DAEB700F8CEF3 /* Bread TravelUITests */,
+				BCA7E16C1D5DAEB600F8CEF3 /* Products */,
+				4FA4EC3CFAC07F13289CCFF9 /* Pods */,
+				DD5F6E80F64083486DDA7D93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA7E16C1D5DAEB600F8CEF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E16B1D5DAEB600F8CEF3 /* Bread Travel.app */,
+				BCA7E1841D5DAEB700F8CEF3 /* Bread TravelTests.xctest */,
+				BCA7E18F1D5DAEB700F8CEF3 /* Bread TravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA7E16D1D5DAEB600F8CEF3 /* Bread Travel */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E2371D5DB0F600F8CEF3 /* Bear.pch */,
+				BCA7E1711D5DAEB600F8CEF3 /* AppDelegate.h */,
+				BCA7E1721D5DAEB600F8CEF3 /* AppDelegate.m */,
+				BCA7E1741D5DAEB600F8CEF3 /* ViewController.h */,
+				BCA7E1751D5DAEB600F8CEF3 /* ViewController.m */,
+				BCA7E1771D5DAEB600F8CEF3 /* Main.storyboard */,
+				BCA7E17A1D5DAEB600F8CEF3 /* Assets.xcassets */,
+				BCA7E17C1D5DAEB600F8CEF3 /* LaunchScreen.storyboard */,
+				BCA7E17F1D5DAEB600F8CEF3 /* Info.plist */,
+				BCA7E16E1D5DAEB600F8CEF3 /* Supporting Files */,
+			);
+			path = "Bread Travel";
+			sourceTree = "<group>";
+		};
+		BCA7E16E1D5DAEB600F8CEF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E16F1D5DAEB600F8CEF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCA7E1871D5DAEB700F8CEF3 /* Bread TravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1881D5DAEB700F8CEF3 /* Bread_TravelTests.m */,
+				BCA7E18A1D5DAEB700F8CEF3 /* Info.plist */,
+			);
+			path = "Bread TravelTests";
+			sourceTree = "<group>";
+		};
+		BCA7E1921D5DAEB700F8CEF3 /* Bread TravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1931D5DAEB700F8CEF3 /* Bread_TravelUITests.m */,
+				BCA7E1951D5DAEB700F8CEF3 /* Info.plist */,
+			);
+			path = "Bread TravelUITests";
+			sourceTree = "<group>";
+		};
+		BCA7E1A11D5DB0D000F8CEF3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1A21D5DB0D000F8CEF3 /* HomePage */,
+				BCA7E1C81D5DB0D000F8CEF3 /* Marcos */,
+				BCA7E1CA1D5DB0D000F8CEF3 /* Resource */,
+				BCA7E1F81D5DB0D000F8CEF3 /* TOOLS */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BCA7E1A21D5DB0D000F8CEF3 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1A31D5DB0D000F8CEF3 /* Base */,
+				BCA7E1AB1D5DB0D000F8CEF3 /* Desktop */,
+				BCA7E1BA1D5DB0D000F8CEF3 /* Particulars */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		BCA7E1A31D5DB0D000F8CEF3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1A41D5DB0D000F8CEF3 /* Controller */,
+				BCA7E1A91D5DB0D000F8CEF3 /* Model */,
+				BCA7E1AA1D5DB0D000F8CEF3 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BCA7E1A41D5DB0D000F8CEF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1A51D5DB0D000F8CEF3 /* BaseViewController.h */,
+				BCA7E1A61D5DB0D000F8CEF3 /* BaseViewController.m */,
+				BCA7E1A71D5DB0D000F8CEF3 /* TravelNotesViewController.h */,
+				BCA7E1A81D5DB0D000F8CEF3 /* TravelNotesViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCA7E1A91D5DB0D000F8CEF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCA7E1AA1D5DB0D000F8CEF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCA7E1AB1D5DB0D000F8CEF3 /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1AC1D5DB0D000F8CEF3 /* Controller */,
+				BCA7E1AF1D5DB0D000F8CEF3 /* Model */,
+				BCA7E1B61D5DB0D000F8CEF3 /* View */,
+			);
+			path = Desktop;
+			sourceTree = "<group>";
+		};
+		BCA7E1AC1D5DB0D000F8CEF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1AD1D5DB0D000F8CEF3 /* ListViewController.h */,
+				BCA7E1AE1D5DB0D000F8CEF3 /* ListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCA7E1AF1D5DB0D000F8CEF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1B01D5DB0D000F8CEF3 /* ADModel.h */,
+				BCA7E1B11D5DB0D000F8CEF3 /* ADModel.m */,
+				BCA7E1B21D5DB0D000F8CEF3 /* DailystoryModel.h */,
+				BCA7E1B31D5DB0D000F8CEF3 /* DailystoryModel.m */,
+				BCA7E1B41D5DB0D000F8CEF3 /* HotModel.h */,
+				BCA7E1B51D5DB0D000F8CEF3 /* HotModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCA7E1B61D5DB0D000F8CEF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1B71D5DB0D000F8CEF3 /* travelNotsTableViewCell.h */,
+				BCA7E1B81D5DB0D000F8CEF3 /* travelNotsTableViewCell.m */,
+				BCA7E1B91D5DB0D000F8CEF3 /* travelNotsTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCA7E1BA1D5DB0D000F8CEF3 /* Particulars */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1BB1D5DB0D000F8CEF3 /* Controller */,
+				BCA7E1BE1D5DB0D000F8CEF3 /* Model */,
+				BCA7E1C11D5DB0D000F8CEF3 /* View */,
+			);
+			path = Particulars;
+			sourceTree = "<group>";
+		};
+		BCA7E1BB1D5DB0D000F8CEF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1BC1D5DB0D000F8CEF3 /* ParticViewController.h */,
+				BCA7E1BD1D5DB0D000F8CEF3 /* ParticViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BCA7E1BE1D5DB0D000F8CEF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1BF1D5DB0D000F8CEF3 /* Tripsmodel.h */,
+				BCA7E1C01D5DB0D000F8CEF3 /* Tripsmodel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCA7E1C11D5DB0D000F8CEF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1C21D5DB0D000F8CEF3 /* ParticTableViewCell.h */,
+				BCA7E1C31D5DB0D000F8CEF3 /* ParticTableViewCell.m */,
+				BCA7E1C41D5DB0D000F8CEF3 /* ParticTableViewCell.xib */,
+				BCA7E1C51D5DB0D000F8CEF3 /* TextTableViewCell.h */,
+				BCA7E1C61D5DB0D000F8CEF3 /* TextTableViewCell.m */,
+				BCA7E1C71D5DB0D000F8CEF3 /* TextTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCA7E1C81D5DB0D000F8CEF3 /* Marcos */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1C91D5DB0D000F8CEF3 /* Bear.h */,
+			);
+			path = Marcos;
+			sourceTree = "<group>";
+		};
+		BCA7E1CA1D5DB0D000F8CEF3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1CB1D5DB0D000F8CEF3 /* attractioncounticon.png */,
+				BCA7E1CC1D5DB0D000F8CEF3 /* avatarplaceholder.png */,
+				BCA7E1CD1D5DB0D000F8CEF3 /* btcityhunterotcity.png */,
+				BCA7E1CE1D5DB0D000F8CEF3 /* clockgray.png */,
+				BCA7E1CF1D5DB0D000F8CEF3 /* destsearchbarbtncancel.png */,
+				BCA7E1D01D5DB0D000F8CEF3 /* desttitlerect.png */,
+				BCA7E1D11D5DB0D000F8CEF3 /* destvirturalline.png */,
+				BCA7E1D21D5DB0D000F8CEF3 /* featured@2x.png */,
+				BCA7E1D31D5DB0D000F8CEF3 /* featurediphone@2x.png */,
+				BCA7E1D41D5DB0D000F8CEF3 /* feedcellphotocover.png */,
+				BCA7E1D51D5DB0D000F8CEF3 /* feednavbottombar.png */,
+				BCA7E1D61D5DB0D000F8CEF3 /* floatcomments.png */,
+				BCA7E1D71D5DB0D000F8CEF3 /* floatlikehighlight.png */,
+				BCA7E1D81D5DB0D000F8CEF3 /* floatlikes~.png */,
+				BCA7E1D91D5DB0D000F8CEF3 /* foodcounticon.png */,
+				BCA7E1DA1D5DB0D000F8CEF3 /* homepageanimated@3x.gif */,
+				BCA7E1DB1D5DB0D000F8CEF3 /* hotelcounticon.png */,
+				BCA7E1DC1D5DB0D000F8CEF3 /* journeytimeline.png */,
+				BCA7E1DD1D5DB0D000F8CEF3 /* movenextbutton.png */,
+				BCA7E1DE1D5DB0D000F8CEF3 /* movenextbuttondisabled.png */,
+				BCA7E1DF1D5DB0D000F8CEF3 /* movepreviousbutton.png */,
+				BCA7E1E01D5DB0D000F8CEF3 /* movepreviousbuttondisabled.png */,
+				BCA7E1E11D5DB0D000F8CEF3 /* navbar.png */,
+				BCA7E1E21D5DB0D000F8CEF3 /* pausebutton.png */,
+				BCA7E1E31D5DB0D000F8CEF3 /* phototapcover.png */,
+				BCA7E1E41D5DB0D000F8CEF3 /* placeTraffic.png */,
+				BCA7E1E51D5DB0D000F8CEF3 /* playbutton.png */,
+				BCA7E1E61D5DB0D000F8CEF3 /* poibgplaceholder.png */,
+				BCA7E1E71D5DB0D000F8CEF3 /* poiseperatorline.png */,
+				BCA7E1E81D5DB0D000F8CEF3 /* settingmobilecodeHighligedBtn.png */,
+				BCA7E1E91D5DB0D000F8CEF3 /* shopcounticon.png */,
+				BCA7E1EA1D5DB0D000F8CEF3 /* tripdisoniphone.png */,
+				BCA7E1EB1D5DB0D000F8CEF3 /* tripdisplayaddspotbtniphon.png */,
+				BCA7E1EC1D5DB0D000F8CEF3 /* triplikednormal.png */,
+				BCA7E1ED1D5DB0D000F8CEF3 /* triplikenormal.png */,
+				BCA7E1EE1D5DB0D000F8CEF3 /* triplistcellbg.png */,
+				BCA7E1EF1D5DB0D000F8CEF3 /* tripnewbtnback.png */,
+				BCA7E1F01D5DB0D000F8CEF3 /* tripnewcomment.png */,
+				BCA7E1F11D5DB0D000F8CEF3 /* tripnewdownload.png */,
+				BCA7E1F21D5DB0D000F8CEF3 /* tripnewsharehl.png */,
+				BCA7E1F31D5DB0D000F8CEF3 /* tripviewsectionheader.png */,
+				BCA7E1F41D5DB0D000F8CEF3 /* userinfoaddfriendweibobutton.png */,
+				BCA7E1F51D5DB0D000F8CEF3 /* userinfoaddfriendweibobuttonbg.png */,
+				BCA7E1F61D5DB0D000F8CEF3 /* userinforipcell.png */,
+				BCA7E1F71D5DB0D000F8CEF3 /* waypointcellshadow.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BCA7E1F81D5DB0D000F8CEF3 /* TOOLS */ = {
+			isa = PBXGroup;
+			children = (
+				BCA7E1F91D5DB0D000F8CEF3 /* HttpRequest.h */,
+				BCA7E1FA1D5DB0D000F8CEF3 /* HttpRequest.m */,
+			);
+			path = TOOLS;
+			sourceTree = "<group>";
+		};
+		DD5F6E80F64083486DDA7D93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A5E26CDB0CCF84118CC3EB4 /* libPods-Bread Travel.a */,
+				D312887BE3B7F825C0DE2BA3 /* libPods-Bread TravelTests.a */,
+				1E46974EF1ACDB63F876D5C6 /* libPods-Bread TravelUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA7E16A1D5DAEB600F8CEF3 /* Bread Travel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA7E1981D5DAEB700F8CEF3 /* Build configuration list for PBXNativeTarget "Bread Travel" */;
+			buildPhases = (
+				A354B78892AA5C1EB2F22194 /* [CP] Check Pods Manifest.lock */,
+				BCA7E1671D5DAEB600F8CEF3 /* Sources */,
+				BCA7E1681D5DAEB600F8CEF3 /* Frameworks */,
+				BCA7E1691D5DAEB600F8CEF3 /* Resources */,
+				E347F440731DED92DD1C0C76 /* [CP] Embed Pods Frameworks */,
+				5A41C0828D1D399F9F2B0175 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bread Travel";
+			productName = "Bread Travel";
+			productReference = BCA7E16B1D5DAEB600F8CEF3 /* Bread Travel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCA7E1831D5DAEB700F8CEF3 /* Bread TravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA7E19B1D5DAEB700F8CEF3 /* Build configuration list for PBXNativeTarget "Bread TravelTests" */;
+			buildPhases = (
+				6B744FC3DBA4993E7B7A8C2A /* [CP] Check Pods Manifest.lock */,
+				BCA7E1801D5DAEB700F8CEF3 /* Sources */,
+				BCA7E1811D5DAEB700F8CEF3 /* Frameworks */,
+				BCA7E1821D5DAEB700F8CEF3 /* Resources */,
+				9064F87A4FFDDF6B8DBBD073 /* [CP] Embed Pods Frameworks */,
+				1A2C3B681F214E2939A70780 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA7E1861D5DAEB700F8CEF3 /* PBXTargetDependency */,
+			);
+			name = "Bread TravelTests";
+			productName = "Bread TravelTests";
+			productReference = BCA7E1841D5DAEB700F8CEF3 /* Bread TravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCA7E18E1D5DAEB700F8CEF3 /* Bread TravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA7E19E1D5DAEB700F8CEF3 /* Build configuration list for PBXNativeTarget "Bread TravelUITests" */;
+			buildPhases = (
+				0C7E5434AC815B89F4C78423 /* [CP] Check Pods Manifest.lock */,
+				BCA7E18B1D5DAEB700F8CEF3 /* Sources */,
+				BCA7E18C1D5DAEB700F8CEF3 /* Frameworks */,
+				BCA7E18D1D5DAEB700F8CEF3 /* Resources */,
+				4000565EA1E27C29D95F8AFC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCA7E1911D5DAEB700F8CEF3 /* PBXTargetDependency */,
+			);
+			name = "Bread TravelUITests";
+			productName = "Bread TravelUITests";
+			productReference = BCA7E18F1D5DAEB700F8CEF3 /* Bread TravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA7E1631D5DAEB600F8CEF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "千锋";
+				TargetAttributes = {
+					BCA7E16A1D5DAEB600F8CEF3 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BCA7E1831D5DAEB700F8CEF3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BCA7E16A1D5DAEB600F8CEF3;
+					};
+					BCA7E18E1D5DAEB700F8CEF3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BCA7E16A1D5DAEB600F8CEF3;
+					};
+				};
+			};
+			buildConfigurationList = BCA7E1661D5DAEB600F8CEF3 /* Build configuration list for PBXProject "Bread Travel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA7E1621D5DAEB600F8CEF3;
+			productRefGroup = BCA7E16C1D5DAEB600F8CEF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA7E16A1D5DAEB600F8CEF3 /* Bread Travel */,
+				BCA7E1831D5DAEB700F8CEF3 /* Bread TravelTests */,
+				BCA7E18E1D5DAEB700F8CEF3 /* Bread TravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA7E1691D5DAEB600F8CEF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA7E2141D5DB0D000F8CEF3 /* floatcomments.png in Resources */,
+				BCA7E21A1D5DB0D000F8CEF3 /* journeytimeline.png in Resources */,
+				BCA7E20E1D5DB0D000F8CEF3 /* desttitlerect.png in Resources */,
+				BCA7E17E1D5DAEB600F8CEF3 /* LaunchScreen.storyboard in Resources */,
+				BCA7E22F1D5DB0D000F8CEF3 /* tripnewdownload.png in Resources */,
+				BCA7E2251D5DB0D000F8CEF3 /* poiseperatorline.png in Resources */,
+				BCA7E2271D5DB0D000F8CEF3 /* shopcounticon.png in Resources */,
+				BCA7E2171D5DB0D000F8CEF3 /* foodcounticon.png in Resources */,
+				BCA7E2021D5DB0D000F8CEF3 /* travelNotsTableViewCell.xib in Resources */,
+				BCA7E20A1D5DB0D000F8CEF3 /* avatarplaceholder.png in Resources */,
+				BCA7E22E1D5DB0D000F8CEF3 /* tripnewcomment.png in Resources */,
+				BCA7E22D1D5DB0D000F8CEF3 /* tripnewbtnback.png in Resources */,
+				BCA7E2221D5DB0D000F8CEF3 /* placeTraffic.png in Resources */,
+				BCA7E2211D5DB0D000F8CEF3 /* phototapcover.png in Resources */,
+				BCA7E22C1D5DB0D000F8CEF3 /* triplistcellbg.png in Resources */,
+				BCA7E2311D5DB0D000F8CEF3 /* tripviewsectionheader.png in Resources */,
+				BCA7E2101D5DB0D000F8CEF3 /* featured@2x.png in Resources */,
+				BCA7E2201D5DB0D000F8CEF3 /* pausebutton.png in Resources */,
+				BCA7E2241D5DB0D000F8CEF3 /* poibgplaceholder.png in Resources */,
+				BCA7E20C1D5DB0D000F8CEF3 /* clockgray.png in Resources */,
+				BCA7E2301D5DB0D000F8CEF3 /* tripnewsharehl.png in Resources */,
+				BCA7E21E1D5DB0D000F8CEF3 /* movepreviousbuttondisabled.png in Resources */,
+				BCA7E2351D5DB0D000F8CEF3 /* waypointcellshadow.png in Resources */,
+				BCA7E21C1D5DB0D000F8CEF3 /* movenextbuttondisabled.png in Resources */,
+				BCA7E21F1D5DB0D000F8CEF3 /* navbar.png in Resources */,
+				BCA7E2121D5DB0D000F8CEF3 /* feedcellphotocover.png in Resources */,
+				BCA7E21B1D5DB0D000F8CEF3 /* movenextbutton.png in Resources */,
+				BCA7E2081D5DB0D000F8CEF3 /* TextTableViewCell.xib in Resources */,
+				BCA7E2231D5DB0D000F8CEF3 /* playbutton.png in Resources */,
+				BCA7E2151D5DB0D000F8CEF3 /* floatlikehighlight.png in Resources */,
+				BCA7E2181D5DB0D000F8CEF3 /* homepageanimated@3x.gif in Resources */,
+				BCA7E2111D5DB0D000F8CEF3 /* featurediphone@2x.png in Resources */,
+				BCA7E22B1D5DB0D000F8CEF3 /* triplikenormal.png in Resources */,
+				BCA7E2341D5DB0D000F8CEF3 /* userinforipcell.png in Resources */,
+				BCA7E20B1D5DB0D000F8CEF3 /* btcityhunterotcity.png in Resources */,
+				BCA7E17B1D5DAEB600F8CEF3 /* Assets.xcassets in Resources */,
+				BCA7E2321D5DB0D000F8CEF3 /* userinfoaddfriendweibobutton.png in Resources */,
+				BCA7E2061D5DB0D000F8CEF3 /* ParticTableViewCell.xib in Resources */,
+				BCA7E2291D5DB0D000F8CEF3 /* tripdisplayaddspotbtniphon.png in Resources */,
+				BCA7E2131D5DB0D000F8CEF3 /* feednavbottombar.png in Resources */,
+				BCA7E2091D5DB0D000F8CEF3 /* attractioncounticon.png in Resources */,
+				BCA7E2331D5DB0D000F8CEF3 /* userinfoaddfriendweibobuttonbg.png in Resources */,
+				BCA7E22A1D5DB0D000F8CEF3 /* triplikednormal.png in Resources */,
+				BCA7E21D1D5DB0D000F8CEF3 /* movepreviousbutton.png in Resources */,
+				BCA7E1791D5DAEB600F8CEF3 /* Main.storyboard in Resources */,
+				BCA7E2191D5DB0D000F8CEF3 /* hotelcounticon.png in Resources */,
+				BCA7E2281D5DB0D000F8CEF3 /* tripdisoniphone.png in Resources */,
+				BCA7E20F1D5DB0D000F8CEF3 /* destvirturalline.png in Resources */,
+				BCA7E2161D5DB0D000F8CEF3 /* floatlikes~.png in Resources */,
+				BCA7E2261D5DB0D000F8CEF3 /* settingmobilecodeHighligedBtn.png in Resources */,
+				BCA7E20D1D5DB0D000F8CEF3 /* destsearchbarbtncancel.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA7E1821D5DAEB700F8CEF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA7E18D1D5DAEB700F8CEF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C7E5434AC815B89F4C78423 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1A2C3B681F214E2939A70780 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bread TravelTests/Pods-Bread TravelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4000565EA1E27C29D95F8AFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bread TravelUITests/Pods-Bread TravelUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A41C0828D1D399F9F2B0175 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bread Travel/Pods-Bread Travel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B744FC3DBA4993E7B7A8C2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9064F87A4FFDDF6B8DBBD073 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bread TravelTests/Pods-Bread TravelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A354B78892AA5C1EB2F22194 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E347F440731DED92DD1C0C76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bread Travel/Pods-Bread Travel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA7E1671D5DAEB600F8CEF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA7E1761D5DAEB600F8CEF3 /* ViewController.m in Sources */,
+				BCA7E1FF1D5DB0D000F8CEF3 /* DailystoryModel.m in Sources */,
+				BCA7E1FE1D5DB0D000F8CEF3 /* ADModel.m in Sources */,
+				BCA7E1FB1D5DB0D000F8CEF3 /* BaseViewController.m in Sources */,
+				BCA7E2001D5DB0D000F8CEF3 /* HotModel.m in Sources */,
+				BCA7E2031D5DB0D000F8CEF3 /* ParticViewController.m in Sources */,
+				BCA7E2041D5DB0D000F8CEF3 /* Tripsmodel.m in Sources */,
+				BCA7E2011D5DB0D000F8CEF3 /* travelNotsTableViewCell.m in Sources */,
+				BCA7E2071D5DB0D000F8CEF3 /* TextTableViewCell.m in Sources */,
+				BCA7E1FD1D5DB0D000F8CEF3 /* ListViewController.m in Sources */,
+				BCA7E1FC1D5DB0D000F8CEF3 /* TravelNotesViewController.m in Sources */,
+				BCA7E1731D5DAEB600F8CEF3 /* AppDelegate.m in Sources */,
+				BCA7E2051D5DB0D000F8CEF3 /* ParticTableViewCell.m in Sources */,
+				BCA7E2361D5DB0D000F8CEF3 /* HttpRequest.m in Sources */,
+				BCA7E1701D5DAEB600F8CEF3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA7E1801D5DAEB700F8CEF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA7E1891D5DAEB700F8CEF3 /* Bread_TravelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA7E18B1D5DAEB700F8CEF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA7E1941D5DAEB700F8CEF3 /* Bread_TravelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCA7E1861D5DAEB700F8CEF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA7E16A1D5DAEB600F8CEF3 /* Bread Travel */;
+			targetProxy = BCA7E1851D5DAEB700F8CEF3 /* PBXContainerItemProxy */;
+		};
+		BCA7E1911D5DAEB700F8CEF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCA7E16A1D5DAEB600F8CEF3 /* Bread Travel */;
+			targetProxy = BCA7E1901D5DAEB700F8CEF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCA7E1771D5DAEB600F8CEF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA7E1781D5DAEB600F8CEF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCA7E17C1D5DAEB600F8CEF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA7E17D1D5DAEB600F8CEF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA7E1961D5DAEB700F8CEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCA7E1971D5DAEB700F8CEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA7E1991D5DAEB700F8CEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29ACC3A8D718DEE3334E0F6 /* Pods-Bread Travel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Bread Travel/Bear.pch";
+				INFOPLIST_FILE = "Bread Travel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Bread-Travel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCA7E19A1D5DAEB700F8CEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1A7D0603AB2C0942555F37 /* Pods-Bread Travel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Bread Travel/Bear.pch";
+				INFOPLIST_FILE = "Bread Travel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Bread-Travel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCA7E19C1D5DAEB700F8CEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36406ECC28927B4A4F03A3C1 /* Pods-Bread TravelTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bread TravelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Bread-TravelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bread Travel.app/Bread Travel";
+			};
+			name = Debug;
+		};
+		BCA7E19D1D5DAEB700F8CEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71217096A5434C3208BE9BAA /* Pods-Bread TravelTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bread TravelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Bread-TravelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bread Travel.app/Bread Travel";
+			};
+			name = Release;
+		};
+		BCA7E19F1D5DAEB700F8CEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79ED14C923A6DCBA7F47836F /* Pods-Bread TravelUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Bread TravelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Bread-TravelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bread Travel";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BCA7E1A01D5DAEB700F8CEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF17C1440B7958E486640B6 /* Pods-Bread TravelUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Bread TravelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Bread-TravelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bread Travel";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA7E1661D5DAEB600F8CEF3 /* Build configuration list for PBXProject "Bread Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA7E1961D5DAEB700F8CEF3 /* Debug */,
+				BCA7E1971D5DAEB700F8CEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA7E1981D5DAEB700F8CEF3 /* Build configuration list for PBXNativeTarget "Bread Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA7E1991D5DAEB700F8CEF3 /* Debug */,
+				BCA7E19A1D5DAEB700F8CEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA7E19B1D5DAEB700F8CEF3 /* Build configuration list for PBXNativeTarget "Bread TravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA7E19C1D5DAEB700F8CEF3 /* Debug */,
+				BCA7E19D1D5DAEB700F8CEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA7E19E1D5DAEB700F8CEF3 /* Build configuration list for PBXNativeTarget "Bread TravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA7E19F1D5DAEB700F8CEF3 /* Debug */,
+				BCA7E1A01D5DAEB700F8CEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA7E1631D5DAEB600F8CEF3 /* Project object */;
+}
